@@ -1,0 +1,436 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F6FAFD;
+    margin: 0;
+    position: relative;
+}
+
+a { 
+    text-decoration: none; 
+   }
+
+button {
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 77rem;
+
+}
+
+.header .header-warp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .head-nav {
+    padding-right: 35rem;
+}
+
+.header .head-list {
+    display: flex;
+    align-items: center;
+    padding-left: 7rem;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header .nav-item {
+    margin-left: 2rem;
+}
+
+
+.header .nav-link {
+    position: relative;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #4B5D68;
+    font-family: "Avenir-Medium";
+    transition: color 0.3s ease;
+
+}
+
+.header .nav-link:hover {
+    color: #212353; 
+    font-weight: bold; 
+}
+
+.header .requst-but {
+    font-family: "Avenir-Heavy"; 
+    min-width: 13.125rem;
+    height: 3.75rem;
+    border-radius: 3.125rem;
+    background-color: #ffffff;
+    color: #212353;
+    border-color:#ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    margin-right: 20rem;
+    transition:  color 400ms ease;
+    
+}
+
+.requst-arr {
+    top:0.3rem;
+    left: 0.7rem;
+    position: relative;
+    transition: left 400ms ease ;
+    
+}
+
+.header .requst-but:hover .requst-arr {
+    left: 1rem;
+}
+
+.header .requst-but:hover {
+    color: #9C69E2;
+}
+
+.intro {
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.intro .intro-warp {
+    margin: 0 auto;
+}
+
+.intro-title {
+    font-family: "Helvetica-Bold";
+    font-size: 5rem;
+    color: #212353;
+    max-width: 40.3125rem;
+}
+
+.intro-txt {
+    font-family: "Avenir-Medium";
+    font-size: 1.125rem; 
+    color: #4B5D68;
+    max-width: 23.75rem;
+    margin-bottom: 10rem;
+}
+
+.intro-logo {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.intro-about {
+    position: absolute;
+}
+
+.intro-but {
+    min-width: 10.625rem;
+    height: 3.75rem;
+    margin-top: 3rem;
+    padding: 0 0;
+    border-radius: 2rem;
+    background-color: #9C69E2;
+    font-family: "Avenir-Heavy";
+    font-size: 1.125rem;
+    line-height: 0.1rem;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.intro-but:hover {
+    background-color: #794bb9;
+} 
+
+.features {
+    position: relative;
+}
+
+
+.features-title {
+    font-family: "Helvetica-Bold";
+    font-size: 2.5rem;
+    color: #212353;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.features-txt {
+    font-family: "Avenir-Medium";
+    font-size: 1.125rem; 
+    color: #4B5D68;
+    width: 38.75rem;
+    margin: 3rem auto; 
+    text-align: center; 
+}
+.features-blocks {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.block1, .block2, .block3, .block4, .blocks-bg {
+
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.blocks-title {
+    position: absolute;
+    bottom: 18rem;
+    left: 17rem;
+    font-family: "Helvetica-Regular";
+    color: #212353;
+    line-height: 2rem;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+.blocks-txt {
+    position: absolute;
+    top: 7rem;
+    left: 17rem;
+    max-width: 14.2rem;
+    font-family: "Avenir-Book";
+    color: #4B5D68;
+    line-height: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.blocks-but {
+    position: absolute;
+    bottom: 5rem;
+    left: 17rem;
+    font-family: "Avenir-Heavy";
+    color: #212353;
+    transition: color 200ms ease;
+    padding-bottom: 1rem;
+}
+
+.blocks-but:hover {
+    color: #9C69E2;
+
+}
+
+.blocks-but:hover .blocks-arr {
+    left: 1.3rem;
+
+}
+
+.blocks-arr {
+    position: relative;
+    bottom: -0.3rem;
+    left: 1rem;
+    transition: left 400ms ease;
+    
+}
+
+.testimonials {
+    margin-top: 3rem;
+}
+
+.testimonials-form {
+    width: 60rem;
+    height: 40rem;
+    background-color: #9C69E2;
+    border-radius: 1.5rem;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+ 
+}
+
+.testimonials-title {
+    font-family: "Helvetica-Bold";
+    font-size: 2.2rem;
+    color: #ffffff;
+    top: 5rem;
+    left: 6rem;
+    position: absolute;
+}
+
+.testimonials-form .people {
+    width: 40rem;
+    height: 20rem;
+    background-color: #FFFFFF;
+    border-radius: 1.25rem;
+    position: relative; 
+    top: 11.5rem;
+    left: 10rem;
+}
+
+.people .photo {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;  
+}
+
+.people .Name {
+    position: absolute;
+    top: 4rem;
+    left: 11rem;  
+    font-family: "Avenir-Heavy";
+    font-size: 1.25rem;
+    color: #212353;
+}
+
+.people .From {
+    position: absolute;
+    top: 5.7rem;
+    left: 11rem;  
+    font-family: "Avenir-Medium";
+    font-size: 0.875rem;
+    color: #9C69E2;
+    font-weight: normal;
+}
+
+.people .feedback {
+    position: absolute;
+    top: 8rem;
+    left: 11rem;  
+    font-family: "Avenir-Roman";
+    font-size: 1.125rem;
+    color: #4B5D68;
+    font-weight: normal;
+    max-width: 18.5rem;
+}
+
+.modal-form{
+    width: 60rem;
+    height: 34rem;
+    background-color: #9C69E2;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+
+}
+
+.modal-title {
+    font-family: "Helvetica-Bold";
+    font-size: 3.5rem;
+    color: #D8D9FF;
+    text-align: center;
+    margin-top: 6.5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-cb {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    
+}
+
+.lbl-cb{
+    position: relative;
+    right: 1.4rem;
+    top: -0.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-txt {
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+    width: 26rem;
+    height: 1.7rem;
+}
+
+.modal-bg {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: auto;
+    animation-name: modalbg;
+  animation-duration: 250ms
+}
+
+
+@keyframes modalbg {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+
+.contact-btn {
+    width: 26rem;
+    height: 2.6rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #04DEB7;
+    font-family: "Helvetica-Bold";
+    color: #ffffff;
+    transition: background-color 400ms ease ;
+}
+
+.contact-btn:hover {
+
+    background-color:#02be60 ;
+}
+
+input::placeholder {
+    font-family: "Helvetica-Bold";
+    color: #212353;
+    opacity: 20%;
+    
+}
+
+.modal-close {
+    position: absolute;
+    left: 55rem;
+    top:2rem;
+}
+
+.modal-close:hover {
+    transform: rotatez(90deg);
+    transition-duration: 300ms;
+}
