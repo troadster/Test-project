@@ -1,106 +1,102 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test project</title>
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="preload" href="./css/fonts.css" as="font" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/CheifSlider.css" >
-    <script src="./js/CheifSlider.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const slider = new ChiefSlider('.slider', {
-            loop: true,
-            autoplay: true,
-            interval: 7000,
-          });
-        });
-      </script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header-warp">
                 <a href="#" class="logo">
-                    <img alt=""  src="./img/logo.svg"  />
+                    <img alt="" src="./img/logo.svg" />
 
                 </a>
 
                 <nav class="head-nav">
                     <ul class="head-list">
                         <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                            <a href="#about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                        <a href="#help" class="nav-link">Help</a>
+                            <a href="#help" class="nav-link">Help</a>
                         </li>
                         <li class="nav-item">
-                        <a href="#features" class="nav-link">Features</a>
+                            <a href="#features" class="nav-link">Features</a>
                         </li>
                         <li class="nav-item">
-                        <a href="#" class="nav-link">Signup</a>
+                            <a href="#" class="nav-link">Signup</a>
                         </li>
-                    </ul>    
+                    </ul>
                 </nav>
                 <button id="open-modal2" class="requst-but">Request Demo
                     <img src="./img/reqarrow.svg" class="requst-arr" alt="">
                 </button>
-                
+
             </div>
         </div>
-            
+
     </header>
     <section class="intro">
         <div class="container">
             <div class="intro-warp">
                 <div class="intro-about">
                     <h2 class="intro-title">Save your data storage here.</h2>
-                    <p class="intro-txt">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.
-                    
-                    <button id="open-modal" class="intro-but">Learn more</button>    
+                    <p class="intro-txt">Data Warehouse is a data storage area that has been tested for security, so you
+                        can store your data here safely but not be afraid of being stolen by others.
+
+                        <button id="open-modal" class="intro-but">Learn more</button>
                     </p>
                 </div>
                 <div class="intro-logo">
                     <img alt="" class="intro-img" src="./img/intro.svg">
                 </div>
             </div>
-        </div>    
+        </div>
     </section>
     <section id="features" class="features">
         <div class="container">
-            <div class="features-warp">  
+            <div class="features-warp">
                 <h2 class="features-title">Features</h2>
-                <p class="features-txt">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
-                
+                <p class="features-txt">Some of the features and advantages that we provide for those of you who store
+                    data in this Data Warehouse.</p>
+
                 <div class="features-blocks">
                     <div class="block1">
                         <img alt="" class="blocks-bg" src="./img/block1.svg">
                         <h2 class="blocks-title">Search Data</h2>
-                        <p class="blocks-txt">Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
+                        <p class="blocks-txt">Don’t worry if your data is very large, the Data Warehoue provides a
+                            search engine, which is useful for making it easier to find data effectively saving time.
+                        </p>
                         <a class="blocks-but" href="#">
                             Learn more<img alt="" class="blocks-arr" src="./img/reqarrow.svg">
                         </a>
-                        
-                        
-                       
+
+
+
                     </div>
-                   <div class="block2">
+                    <div class="block2">
                         <img alt="" class="blocks-bg" src="./img/block2.svg">
                         <h2 class="blocks-title">24 Hours Access</h2>
-                        <p class="blocks-txt">Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.</p>
+                        <p class="blocks-txt">Access is given 24 hours a full morning to night and meet again in the
+                            morning, giving you comfort when you need data when urgent.</p>
                         <a class="blocks-but" href="#">
                             Learn more<img alt="" class="blocks-arr" src="./img/reqarrow.svg">
                         </a>
-                    </div> 
+                    </div>
                     <div class="block3">
                         <img alt="" class="blocks-bg" src="./img/block3.svg">
                         <h2 class="blocks-title">Print Out</h2>
-                        <p class="blocks-txt">Print out service gives you convenience if someday you need print data, just edit it all and just print it.</p>
+                        <p class="blocks-txt">Print out service gives you convenience if someday you need print data,
+                            just edit it all and just print it.</p>
                         <a class="blocks-but" href="#">
                             Learn more<img alt="" class="blocks-arr" src="./img/reqarrow.svg">
                         </a>
@@ -108,7 +104,9 @@
                     <div class="block4">
                         <img alt="" class="blocks-bg" src="./img/block4.svg">
                         <h2 class="blocks-title">Security Code</h2>
-                        <p class="blocks-txt">Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.</p>
+                        <p class="blocks-txt">Data Security is one of our best facilities. Allows for your files to be
+                            safer. The file can be secured with a code or password that you created, so only you can
+                            open the file.</p>
                         <a class="blocks-but" href="#">
                             Learn more<img alt="" class="blocks-arr" src="./img/reqarrow.svg">
                         </a>
@@ -116,98 +114,81 @@
 
                 </div>
             </div>
-        </div>  
+        </div>
     </section>
-    <section class="testimonials slider">
+    <section class="testimonials">
         <div class="testimonials-form">
             <h2 class="testimonials-title">
                 Testimonials
             </h2>
-            <div class="slider__container">
-                <div class="slider__wrapper">
-                        <div class="slider__items">
-                            <div class="slider__item">
-                                <div class="people ">
-                                        <img alt="" class="photo" src="./img/people1.svg">
-                                        <h2 class="Name">John Fang</h2>
-                                        <h3 class="From">wordfaang.com</h3>
-                                        <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
-                                        </p>
-                                
-                                </div>
-                            </div>    
-                            <div class="slider__item">
-                                <div class="people slider__item">
-                                        <img alt="" class="photo" src="./img/people2.svg">
-                                        <h2 class="Name">Jeny Doe</h2>
-                                        <h3 class="From">UX Engineer</h3>
-                                        <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.                            
-                                        </p>
-                                </div>
-                            </div>
-                            <div class="slider__item">
-                                <div class="people slider__item">
-                                    <img alt="" class="photo" src="./img/people2.svg">
-                                    <h2 class="Name">TEST TEST</h2>
-                                    <h3 class="From">Designer</h3>
-                                    <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.                            
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="slider__item">
-                                <div class="people slider__item">
-                                    <img alt="" class="photo" src="./img/people1.svg">
-                                    <h2 class="Name">Sergey Melnikov</h2>
-                                    <h3 class="From">Coder</h3>
-                                    <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.                            
-                                    </p>
-                                </div>
-                            </div>
+            <div class="slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="people">
+                            <img alt="" class="photo" src="./img/people1.svg">
+                            <h2 class="Name">John Fang</h2>
+                            <h3 class="From">wordfaang.com</h3>
+                            <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam
+                                laoreet nulla.
+                            </p>
                         </div>
-                        <a href="#"><img alt="" src="./img/prev.svg" class="slider__control" data-slide="prev"></a>
-                        <a href="#"><img alt="" src="./img/next.svg" class="slider__control" data-slide="next"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="people">
+                            <img alt="" class="photo" src="./img/people2.svg">
+                            <h2 class="Name">Jeny Doe</h2>
+                            <h3 class="From">UX Engineer</h3>
+                            <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam
+                                laoreet nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="people">
+                            <img alt="" class="photo" src="./img/people2.svg">
+                            <h2 class="Name">TEST TEST</h2>
+                            <h3 class="From">Designer</h3>
+                            <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam
+                                laoreet nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="people">
+                            <img alt="" class="photo" src="./img/people1.svg">
+                            <h2 class="Name">Sergey Melnikov</h2>
+                            <h3 class="From">Coder</h3>
+                            <p class="feedback">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
+                                viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam
+                                laoreet nulla.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
+        </div>
     </section>
     <div id="modal" class="modal-bg">
-    <div class="modal-form">
-        <img alt="" class="modal-close" src="./img/x.svg">
-        <h1 class="modal-title">Contact Us</h1>
-        <form class="contact" action="/">
-            <input type="text" placeholder="Name" id="name" class="contact-txt">
-            <input type="text" placeholder="Mobile" id="phone" class="contact-txt">
-            <input type="checkbox"  id="rights" class="contact-cb">
-            <label class="lbl-cb"  id="lblcb" for="rights">all rights reserved. 2006-2021 spike amica inc</label>
-            <input type="button"  class="contact-btn" value="Enter" onclick="LogConcole(document.getElementById('name').value,document.getElementById('phone').value)">
-        </form>
+        <div class="modal-form">
+            <img alt="" class="modal-close" src="./img/x.svg">
+            <h1 class="modal-title">Contact Us</h1>
+            <form class="contact" action="/">
+                <input type="text" placeholder="Name" id="name" class="contact-txt">
+                <input type="text" placeholder="Mobile" id="phone" class="contact-txt">
+                <input type="checkbox" id="rights" class="contact-cb">
+                <label class="lbl-cb" id="lblcb" for="rights">all rights reserved. 2006-2021 spike amica inc</label>
+                <input type="button" class="contact-btn" value="Enter"
+                    onclick="LogConcole(document.getElementById('name').value,document.getElementById('phone').value)">
+            </form>
+        </div>
     </div>
-    </div>
-<script>
-
-function LogConcole(Name,Phone,Rights) {
-    console.log('Name: '+Name);
-    console.log('Phone: '+Phone);
-}
-    var modal = document.getElementById("modal");
-    var btn = document.getElementById("open-modal");
-    var btn2 = document.getElementById("open-modal2");
-    var span = document.getElementsByClassName("modal-close")[0];
-    
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    btn2.onclick = function() {
-      modal.style.display = "block";
-    }
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }</script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
